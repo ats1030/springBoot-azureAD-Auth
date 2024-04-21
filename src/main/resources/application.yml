@@ -4,11 +4,11 @@ spring:
       active-directory:
         enabled: true
         profile:
-          tenant-id: <YOUR TENANT ID>
+          tenant-id: your-tenant-id
         credential:
-          client-id: <YOUR CLIENT ID>
-          client-secret: <YOUR CLIENT SECRET>
+          client-id: your-client-id
+          client-secret: your-client-secret
 
 server:
-  port: 9191
+  port: 8080
   forward-headers-strategy: native
